@@ -1,0 +1,975 @@
+TPong
+v7
+r0
+t364148119.609265
+cCheck dependencies
+cProcessInfoPlistFile /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Info.plist Pong-Info.plist
+cCompileXIB /Users/joemiller/Developer/Pong4/MainWindow.xib
+cCompileXIB /Users/joemiller/Developer/Pong4/PongViewController.xib
+cCpResource build/Debug-iphonesimulator/Pong.app/ball.png images/ball.png
+cCpResource build/Debug-iphonesimulator/Pong.app/paddle.png images/paddle.png
+cCpResource build/Debug-iphonesimulator/Pong.app/button.png images/button.png
+cCpResource build/Debug-iphonesimulator/Pong.app/icon.png icon.png
+cCpResource build/Debug-iphonesimulator/Pong.app/bar.png images/bar.png
+cCpResource build/Debug-iphonesimulator/Pong.app/singlePlayer.png images/singlePlayer.png
+cCpResource build/Debug-iphonesimulator/Pong.app/twoPlayer.png images/twoPlayer.png
+cCpResource build/Debug-iphonesimulator/Pong.app/easy.png images/easy.png
+cCpResource build/Debug-iphonesimulator/Pong.app/hard.png images/hard.png
+cProcessPCH /var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-ehxzhedfmokzdhdgkofmqbifwmnm/Pong_Prefix.pch.gch Pong_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o /Users/joemiller/Developer/Pong4/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o /Users/joemiller/Developer/Pong4/Classes/PongAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o /Users/joemiller/Developer/Pong4/Classes/PongViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Pong normal i386
+cGenerateDSYMFile /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app.dSYM /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Pong
+cTouch /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/joemiller/Developer/Pong3/Classes/PongAppDelegate.h
+c000000004FEF54E300000000000001CB
+t1341084899
+s459
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Developer/Pong3/Classes/PongAppDelegate.m
+c000000004FF1274E0000000000000AA1
+t1341204302
+s2721
+i"PongAppDelegate.h"
+i"PongViewController.h"
+
+N/Users/joemiller/Developer/Pong3/Classes/PongViewController.h
+c000000004FFF65E60000000000000446
+t1342137830
+s1094
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Developer/Pong3/Classes/PongViewController.m
+c000000004FFF7A2000000000000038F2
+t1342143008
+s14578
+i"PongViewController.h"
+
+N/Users/joemiller/Developer/Pong3/MainWindow.xib
+c000000004FEF54E30000000000004E05
+t1341084899
+s19973
+
+N/Users/joemiller/Developer/Pong3/PongViewController.xib
+c000000004FFFA0BB00000000000063D1
+t1342152891
+s25553
+
+N/Users/joemiller/Developer/Pong3/Pong_Prefix.pch
+c000000004FEF54E300000000000000B1
+t1341084899
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app
+t1342152573
+s408
+
+N/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app.dSYM
+t1342152573
+s102
+
+N/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Info.plist
+t1342152568
+s701
+
+N/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/MainWindow.nib
+t1341090196
+s1117
+
+N/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/PkgInfo
+t1342152568
+s8
+
+N/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Pong
+t1342152573
+s41700
+
+N/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/PongViewController.nib
+t1342152572
+s3602
+
+N/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/ball.png
+t1342152568
+s3988
+
+N/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/bar.png
+t1342152568
+s4699
+
+N/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/button.png
+t1342152568
+s4689
+
+N/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/icon.png
+t1342152568
+s5177
+
+N/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/paddle.png
+t1342152568
+s6721
+
+N/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.LinkFileList
+c000000004FFF9F780000000000000163
+t1342152568
+s355
+
+N/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o
+t1342152573
+s51284
+
+N/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o
+t1342152573
+s86572
+
+N/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o
+t1342152573
+s6292
+
+N/Users/joemiller/Developer/Pong3/icon.png
+c000000004FFC61BA0000000000001439
+t1341940154
+s5177
+
+N/Users/joemiller/Developer/Pong3/images/ball.png
+c000000004FF7244D0000000000000F94
+t1341596749
+s3988
+
+N/Users/joemiller/Developer/Pong3/images/bar.png
+c000000004FFF5FD5000000000000125B
+t1342136277
+s4699
+
+N/Users/joemiller/Developer/Pong3/images/button.png
+c000000004FF76FEF0000000000001251
+t1341616111
+s4689
+
+N/Users/joemiller/Developer/Pong3/images/paddle.png
+c000000004FF723590000000000001A41
+t1341596505
+s6721
+
+N/Users/joemiller/Developer/Pong3/main.m
+c000000004FEF54E30000000000000164
+t1341084899
+s356
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Developer/Pong4/Classes/PongAppDelegate.h
+c000000004FEF54E300000000000001CB
+t1341084899
+s459
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Developer/Pong4/Classes/PongAppDelegate.m
+c000000004FF1274E0000000000000AA1
+t1341204302
+s2721
+i"PongAppDelegate.h"
+i"PongViewController.h"
+
+N/Users/joemiller/Developer/Pong4/Classes/PongViewController.h
+c000000005000D8F1000000000000054A
+t1342232817
+s1354
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Developer/Pong4/Classes/PongViewController.m
+c000000005000D8F1000000000000418A
+t1342232817
+s16778
+i"PongViewController.h"
+
+N/Users/joemiller/Developer/Pong4/MainWindow.xib
+c000000004FEF54E30000000000004E05
+t1341084899
+s19973
+
+N/Users/joemiller/Developer/Pong4/PongViewController.xib
+c000000005000DC6A000000000000964D
+t1342233706
+s38477
+
+N/Users/joemiller/Developer/Pong4/Pong_Prefix.pch
+c000000004FEF54E300000000000000B1
+t1341084899
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app
+t1342455319
+s544
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app.dSYM
+t1342455319
+s102
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Info.plist
+t1342152568
+s701
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/MainWindow.nib
+t1341090196
+s1117
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/PkgInfo
+t1342152568
+s8
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Pong
+t1342455319
+s43748
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/PongViewController.nib
+t1342455318
+s4750
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/ball.png
+t1342152568
+s3988
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/bar.png
+t1342152568
+s4699
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/button.png
+t1342152568
+s4689
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/easy.png
+t1342455318
+s3827
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/hard.png
+t1342455318
+s3863
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/icon.png
+t1342152568
+s5177
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/paddle.png
+t1342152568
+s6721
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/singlePlayer.png
+t1342227225
+s4866
+
+N/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/twoPlayer.png
+t1342227225
+s5124
+
+N/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.LinkFileList
+c000000005000C3190000000000000163
+t1342227225
+s355
+
+N/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o
+t1342455319
+s51320
+
+N/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o
+t1342455319
+s96912
+
+N/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o
+t1342227226
+s6292
+
+N/Users/joemiller/Developer/Pong4/icon.png
+c000000004FFC61BA0000000000001439
+t1341940154
+s5177
+
+N/Users/joemiller/Developer/Pong4/images/ball.png
+c000000004FF7244D0000000000000F94
+t1341596749
+s3988
+
+N/Users/joemiller/Developer/Pong4/images/bar.png
+c000000004FFF5FD5000000000000125B
+t1342136277
+s4699
+
+N/Users/joemiller/Developer/Pong4/images/button.png
+c000000004FF76FEF0000000000001251
+t1341616111
+s4689
+
+N/Users/joemiller/Developer/Pong4/images/easy.png
+c000000005000DB4A0000000000000EF3
+t1342233418
+s3827
+
+N/Users/joemiller/Developer/Pong4/images/hard.png
+c000000005000DB510000000000000F17
+t1342233425
+s3863
+
+N/Users/joemiller/Developer/Pong4/images/paddle.png
+c000000004FF723590000000000001A41
+t1341596505
+s6721
+
+N/Users/joemiller/Developer/Pong4/images/singlePlayer.png
+c000000004FFFA5C80000000000001302
+t1342154184
+s4866
+
+N/Users/joemiller/Developer/Pong4/images/twoPlayer.png
+c000000004FFFA5D20000000000001404
+t1342154194
+s5124
+
+N/Users/joemiller/Developer/Pong4/main.m
+c000000004FEF54E30000000000000164
+t1341084899
+s356
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongAppDelegate.h
+c000000004FEF54E300000000000001CB
+t1341084899
+s459
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongAppDelegate.m
+c000000004FF1274E0000000000000AA1
+t1341204302
+s2721
+i"PongAppDelegate.h"
+i"PongViewController.h"
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongModel.h
+c000000004FEF5A9800000000000000FE
+t1341086360
+s254
+i<Cocoa/Cocoa.h>
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongModel.m
+c000000004FEF5A5D00000000000000BC
+t1341086301
+s188
+i"PongModel.h"
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongView.h
+c000000004FF136CC00000000000000C4
+t1341208268
+s196
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongView.m
+c000000004FF1374A000000000000026D
+t1341208394
+s621
+i"PongView.h"
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongViewController.h
+c000000004FF1343200000000000001C1
+t1341207602
+s449
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongViewController.m
+c000000004FF137F80000000000000A66
+t1341208568
+s2662
+i"PongViewController.h"
+i"PongView.h"
+
+N/Users/joemiller/Documents/Games/iOS/Pong/MainWindow.xib
+c000000004FEF54E30000000000004E05
+t1341084899
+s19973
+
+N/Users/joemiller/Documents/Games/iOS/Pong/PongViewController.xib
+c000000004FF1381D000000000000551E
+t1341208605
+s21790
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong_Prefix.pch
+c000000004FEF54E300000000000000B1
+t1341084899
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Documents/Games/iOS/Pong/ball.png
+c000000004FEF67BF0000000000000B87
+t1341089727
+s2951
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app
+t1341208607
+s306
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app.dSYM
+t1341208570
+s102
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist
+t1341090195
+s579
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/MainWindow.nib
+t1341090196
+s1117
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/PkgInfo
+t1341090195
+s8
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Pong
+t1341208570
+s20428
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/PongViewController.nib
+t1341208607
+s1313
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/ball.png
+t1341090195
+s2951
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/paddle.png
+t1341090195
+s2835
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.LinkFileList
+c000000004FF136B900000000000001F9
+t1341208249
+s505
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o
+t1341207628
+s51056
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongModel.o
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongView.o
+t1341208394
+s38660
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o
+t1341208570
+s45664
+
+N/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o
+t1341090197
+s6308
+
+N/Users/joemiller/Documents/Games/iOS/Pong/images/ball.png
+c000000004FEF67BF0000000000000B87
+t1341089727
+s2951
+
+N/Users/joemiller/Documents/Games/iOS/Pong/images/paddle.png
+c000000004FEF67DF0000000000000B13
+t1341089759
+s2835
+
+N/Users/joemiller/Documents/Games/iOS/Pong/main.m
+c000000004FEF54E30000000000000164
+t1341084899
+s356
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Documents/Games/iOS/Pong/paddle.png
+c000000004FEF67DF0000000000000B13
+t1341089759
+s2835
+
+N/var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dhdskkbznrgwqcfemfsxwzvlakop/Pong_Prefix.pch.gch
+t1341090197
+s15453392
+
+N/var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-ehxzhedfmokzdhdgkofmqbifwmnm/Pong_Prefix.pch.gch
+t1342227226
+s15453392
+
+N/var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-hcvtwwdggdydufewucrvciqhdibf/Pong_Prefix.pch.gch
+t1342152572
+s15453392
+
+NPong-Info.plist
+c000000004FFF535900000000000004BA
+t1342133081
+s1210
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies364148118#364148118#0(0"0(0#1#0"17259149312#0"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o /Users/joemiller/Developer/Pong3/Classes/PongAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s363845372.993031
+e363845373.146170
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o
+x/Users/joemiller/Developer/Pong3/Classes/PongAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/joemiller/Developer/Pong3/Classes/PongAppDelegate.m363845372#363845373#0(0"0(0#0#58"/Users/joemiller/Developer/Pong3/Classes/PongAppDelegate.m4542373520#1814"    cd /Users/joemiller/Developer/Pong3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator -I/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/include -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -include /var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-hcvtwwdggdydufewucrvciqhdibf/Pong_Prefix.pch -c /Users/joemiller/Developer/Pong3/Classes/PongAppDelegate.m -o /Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o /Users/joemiller/Developer/Pong4/Classes/PongAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s364148118.968357
+e364148119.029172
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o
+x/Users/joemiller/Developer/Pong4/Classes/PongAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/joemiller/Developer/Pong4/Classes/PongAppDelegate.m364148118#364148119#0(0"0(0#0#58"/Users/joemiller/Developer/Pong4/Classes/PongAppDelegate.m17206448896#1814"    cd /Users/joemiller/Developer/Pong4    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator -I/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/include -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -include /var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-ehxzhedfmokzdhdgkofmqbifwmnm/Pong_Prefix.pch -c /Users/joemiller/Developer/Pong4/Classes/PongAppDelegate.m -o /Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o /Users/joemiller/Documents/Games/iOS/Pong/Classes/PongAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s362900428.822843
+e362900428.942824
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o
+x/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/joemiller/Documents/Games/iOS/Pong/Classes/PongAppDelegate.m362900428#362900428#0(0"0(0#0#67"/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongAppDelegate.m8619050880#1917"    cd /Users/joemiller/Documents/Games/iOS/Pong    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator -I/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/include -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -include /var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dhdskkbznrgwqcfemfsxwzvlakop/Pong_Prefix.pch -c /Users/joemiller/Documents/Games/iOS/Pong/Classes/PongAppDelegate.m -o /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongModel.o /Users/joemiller/Documents/Games/iOS/Pong/Classes/PongModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongView.o /Users/joemiller/Documents/Games/iOS/Pong/Classes/PongView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s362901194.460199
+e362901194.587672
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongView.o
+x/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/joemiller/Documents/Games/iOS/Pong/Classes/PongView.m362901194#362901194#0(0"0(0#0#60"/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongView.m8611366272#1903"    cd /Users/joemiller/Documents/Games/iOS/Pong    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator -I/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/include -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -include /var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dhdskkbznrgwqcfemfsxwzvlakop/Pong_Prefix.pch -c /Users/joemiller/Documents/Games/iOS/Pong/Classes/PongView.m -o /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongView.o0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o /Users/joemiller/Developer/Pong3/Classes/PongViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s363845372.993615
+e363845373.195430
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o
+x/Users/joemiller/Developer/Pong3/Classes/PongViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/joemiller/Developer/Pong3/Classes/PongViewController.m363845372#363845373#0(0"0(0#0#61"/Users/joemiller/Developer/Pong3/Classes/PongViewController.m4542373520#1820"    cd /Users/joemiller/Developer/Pong3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator -I/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/include -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -include /var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-hcvtwwdggdydufewucrvciqhdibf/Pong_Prefix.pch -c /Users/joemiller/Developer/Pong3/Classes/PongViewController.m -o /Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o /Users/joemiller/Developer/Pong4/Classes/PongViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s364148118.969160
+e364148119.131542
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o
+x/Users/joemiller/Developer/Pong4/Classes/PongViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/joemiller/Developer/Pong4/Classes/PongViewController.m364148118#364148119#0(0"0(0#0#61"/Users/joemiller/Developer/Pong4/Classes/PongViewController.m4531670672#1820"    cd /Users/joemiller/Developer/Pong4    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator -I/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/include -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -include /var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-ehxzhedfmokzdhdgkofmqbifwmnm/Pong_Prefix.pch -c /Users/joemiller/Developer/Pong4/Classes/PongViewController.m -o /Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o /Users/joemiller/Documents/Games/iOS/Pong/Classes/PongViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s362901370.667426
+e362901370.762901
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o
+x/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/joemiller/Documents/Games/iOS/Pong/Classes/PongViewController.m362901370#362901370#0(0"0(0#0#70"/Users/joemiller/Documents/Games/iOS/Pong/Classes/PongViewController.m8615992640#1923"    cd /Users/joemiller/Documents/Games/iOS/Pong    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator -I/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/include -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -include /var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dhdskkbznrgwqcfemfsxwzvlakop/Pong_Prefix.pch -c /Users/joemiller/Documents/Games/iOS/Pong/Classes/PongViewController.m -o /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o /Users/joemiller/Developer/Pong3/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s363845372.992343
+e363845373.135935
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o
+x/Users/joemiller/Developer/Pong3/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/joemiller/Developer/Pong3/main.m363845372#363845373#0(0"0(0#0#39"/Users/joemiller/Developer/Pong3/main.m17201132032#1784"    cd /Users/joemiller/Developer/Pong3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator -I/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/include -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -include /var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-hcvtwwdggdydufewucrvciqhdibf/Pong_Prefix.pch -c /Users/joemiller/Developer/Pong3/main.m -o /Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o /Users/joemiller/Developer/Pong4/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s363920026.841306
+e363920026.972571
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o
+x/Users/joemiller/Developer/Pong4/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/joemiller/Developer/Pong4/main.m363920026#363920026#0(0"0(0#0#39"/Users/joemiller/Developer/Pong4/main.m4530110096#1784"    cd /Users/joemiller/Developer/Pong4    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator -I/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/include -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -include /var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-ehxzhedfmokzdhdgkofmqbifwmnm/Pong_Prefix.pch -c /Users/joemiller/Developer/Pong4/main.m -o /Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o /Users/joemiller/Documents/Games/iOS/Pong/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s362782997.900989
+e362782997.972881
+r1
+xCompileC
+xbuild/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o
+x/Users/joemiller/Documents/Games/iOS/Pong/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/joemiller/Documents/Games/iOS/Pong/main.m362782997#362782997#0(0"0(0#0#48"/Users/joemiller/Documents/Games/iOS/Pong/main.m8616529664#1887"    cd /Users/joemiller/Documents/Games/iOS/Pong    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator -I/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/include -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -include /var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dhdskkbznrgwqcfemfsxwzvlakop/Pong_Prefix.pch -c /Users/joemiller/Documents/Games/iOS/Pong/main.m -o /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/joemiller/Developer/Pong3/MainWindow.xib
+r0
+
+CCompileXIB /Users/joemiller/Developer/Pong3/PongViewController.xib
+s363845368.821147
+e363845372.335543
+r1
+xCompileXIB
+x/Users/joemiller/Developer/Pong3/PongViewController.xib
+o2012-07-12 21:09:28.957 ibtool[482:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-07-12 21:09:28.980 ibtool[482:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-07-12 21:09:28.981 ibtool[482:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-07-12 21:09:28.981 ibtool[482:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+o/* com.apple.ibtool.document.warnings */
+o/Users/joemiller/Developer/Pong3/PongViewController.xib:37: warning: The 'Touch Down' event of 'Rounded Rect Button (Tap to Start)' is connected to the 'tapToStart' selector of 'File's Owner', but 'tapToStart' is no longer defined on 'PongViewController'.
+o/Users/joemiller/Developer/Pong3/PongViewController.xib:47: warning: The 'Touch Down' event of 'Light Info Button' is connected to the 'tapInfo' selector of 'File's Owner', but 'tapInfo' is no longer defined on 'PongViewController'.
+o/Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'playerScoreLabel' outlet of 'File's Owner' is connected to 'Label (0)' but 'playerScoreLabel' is no longer defined on PongViewController.
+o/Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'opponentScoreLabel' outlet of 'File's Owner' is connected to 'Label (0)' but 'opponentScoreLabel' is no longer defined on PongViewController.
+o/Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on PongViewController.
+o/Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'ballImage' outlet of 'File's Owner' is connected to 'Image View (ball.png)' but 'ballImage' is no longer defined on PongViewController.
+o/Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'gameMessage' outlet of 'File's Owner' is connected to 'Label (Pong)' but 'gameMessage' is no longer defined on PongViewController.
+o/Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'infoButton' outlet of 'File's Owner' is connected to 'Light Info Button' but 'infoButton' is no longer defined on PongViewController.
+o/Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'playerPaddle' outlet of 'File's Owner' is connected to 'Image View (paddle.png)' but 'playerPaddle' is no longer defined on PongViewController.
+o/Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'paddleImageOpponent' outlet of 'File's Owner' is connected to 'Image View (paddle.png)' but 'paddleImageOpponent' is no longer defined on PongViewController.
+o/Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'startButton' outlet of 'File's Owner' is connected to 'Rounded Rect Button (Tap to Start)' but 'startButton' is no longer defined on PongViewController.
+o/Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'infoTextView' outlet of 'File's Owner' is connected to 'Text View' but 'infoTextView' is no longer defined on PongViewController.
+lSLF07#2@33"CompileXIB PongViewController.xib363845368#363845372#0(3545"2012-07-12 21:09:28.957 ibtool[482:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-07-12 21:09:28.980 ibtool[482:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-07-12 21:09:28.981 ibtool[482:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-07-12 21:09:28.981 ibtool[482:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)/* com.apple.ibtool.document.warnings *//Users/joemiller/Developer/Pong3/PongViewController.xib:37: warning: The 'Touch Down' event of 'Rounded Rect Button (Tap to Start)' is connected to the 'tapToStart' selector of 'File's Owner', but 'tapToStart' is no longer defined on 'PongViewController'./Users/joemiller/Developer/Pong3/PongViewController.xib:47: warning: The 'Touch Down' event of 'Light Info Button' is connected to the 'tapInfo' selector of 'File's Owner', but 'tapInfo' is no longer defined on 'PongViewController'./Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'playerScoreLabel' outlet of 'File's Owner' is connected to 'Label (0)' but 'playerScoreLabel' is no longer defined on PongViewController./Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'opponentScoreLabel' outlet of 'File's Owner' is connected to 'Label (0)' but 'opponentScoreLabel' is no longer defined on PongViewController./Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on PongViewController./Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'ballImage' outlet of 'File's Owner' is connected to 'Image View (ball.png)' but 'ballImage' is no longer defined on PongViewController./Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'gameMessage' outlet of 'File's Owner' is connected to 'Label (Pong)' but 'gameMessage' is no longer defined on PongViewController./Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'infoButton' outlet of 'File's Owner' is connected to 'Light Info Button' but 'infoButton' is no longer defined on PongViewController./Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'playerPaddle' outlet of 'File's Owner' is connected to 'Image View (paddle.png)' but 'playerPaddle' is no longer defined on PongViewController./Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'paddleImageOpponent' outlet of 'File's Owner' is connected to 'Image View (paddle.png)' but 'paddleImageOpponent' is no longer defined on PongViewController./Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'startButton' outlet of 'File's Owner' is connected to 'Rounded Rect Button (Tap to Start)' but 'startButton' is no longer defined on PongViewController./Users/joemiller/Developer/Pong3/PongViewController.xib:-1: warning: The 'infoTextView' outlet of 'File's Owner' is connected to 'Text View' but 'infoTextView' is no longer defined on PongViewController.12(22@186"The 'Touch Down' event of 'Rounded Rect Button (Tap to Start)' is connected to the 'tapToStart' selector of 'File's Owner', but 'tapToStart' is no longer defined on 'PongViewController'.363845372#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong3/PongViewController.xib363835703#37#0#37#0#0"0(22@163"The 'Touch Down' event of 'Light Info Button' is connected to the 'tapInfo' selector of 'File's Owner', but 'tapInfo' is no longer defined on 'PongViewController'.363845372#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong3/PongViewController.xib363835703#47#0#47#0#0"0(22@142"The 'playerScoreLabel' outlet of 'File's Owner' is connected to 'Label (0)' but 'playerScoreLabel' is no longer defined on PongViewController.363845372#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong3/PongViewController.xib363835703#18446744073709551615#0#18446744073709551615#0#0"0(22@146"The 'opponentScoreLabel' outlet of 'File's Owner' is connected to 'Label (0)' but 'opponentScoreLabel' is no longer defined on PongViewController.363845372#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong3/PongViewController.xib363835703#18446744073709551615#0#18446744073709551615#0#0"0(22@113"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on PongViewController.363845372#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong3/PongViewController.xib363835703#18446744073709551615#0#18446744073709551615#0#0"0(22@140"The 'ballImage' outlet of 'File's Owner' is connected to 'Image View (ball.png)' but 'ballImage' is no longer defined on PongViewController.363845372#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong3/PongViewController.xib363835703#18446744073709551615#0#18446744073709551615#0#0"0(22@135"The 'gameMessage' outlet of 'File's Owner' is connected to 'Label (Pong)' but 'gameMessage' is no longer defined on PongViewController.363845372#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong3/PongViewController.xib363835703#18446744073709551615#0#18446744073709551615#0#0"0(22@138"The 'infoButton' outlet of 'File's Owner' is connected to 'Light Info Button' but 'infoButton' is no longer defined on PongViewController.363845372#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong3/PongViewController.xib363835703#18446744073709551615#0#18446744073709551615#0#0"0(22@148"The 'playerPaddle' outlet of 'File's Owner' is connected to 'Image View (paddle.png)' but 'playerPaddle' is no longer defined on PongViewController.363845372#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong3/PongViewController.xib363835703#18446744073709551615#0#18446744073709551615#0#0"0(22@162"The 'paddleImageOpponent' outlet of 'File's Owner' is connected to 'Image View (paddle.png)' but 'paddleImageOpponent' is no longer defined on PongViewController.363845372#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong3/PongViewController.xib363835703#18446744073709551615#0#18446744073709551615#0#0"0(22@157"The 'startButton' outlet of 'File's Owner' is connected to 'Rounded Rect Button (Tap to Start)' but 'startButton' is no longer defined on PongViewController.363845372#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong3/PongViewController.xib363835703#18446744073709551615#0#18446744073709551615#0#0"0(22@134"The 'infoTextView' outlet of 'File's Owner' is connected to 'Text View' but 'infoTextView' is no longer defined on PongViewController.363845372#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong3/PongViewController.xib363835703#18446744073709551615#0#18446744073709551615#0#0"0(0#0#55"/Users/joemiller/Developer/Pong3/PongViewController.xib4542373520#565"    cd /Users/joemiller/Developer/Pong3    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/PongViewController.nib /Users/joemiller/Developer/Pong3/PongViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/joemiller/Developer/Pong4/MainWindow.xib
+r0
+
+CCompileXIB /Users/joemiller/Developer/Pong4/PongViewController.xib
+s364148118.065868
+e364148118.968110
+r1
+xCompileXIB
+x/Users/joemiller/Developer/Pong4/PongViewController.xib
+o2012-07-16 09:15:18.180 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-07-16 09:15:18.182 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-07-16 09:15:18.182 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-07-16 09:15:18.183 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-07-16 09:15:18.183 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-07-16 09:15:18.184 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-07-16 09:15:18.184 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+o2012-07-16 09:15:18.184 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+o/* com.apple.ibtool.document.warnings */
+o/Users/joemiller/Developer/Pong4/PongViewController.xib:37: warning: The 'Touch Down' event of 'Rounded Rect Button (Start)' is connected to the 'tapToStart' selector of 'File's Owner', but 'tapToStart' is no longer defined on 'PongViewController'.
+o/Users/joemiller/Developer/Pong4/PongViewController.xib:73: warning: The 'Value Changed' event of 'Horizontal Slider' is connected to the 'setDifficultyLevel:' selector of 'File's Owner', but 'setDifficultyLevel:' is no longer defined on 'PongViewController'.
+o/Users/joemiller/Developer/Pong4/PongViewController.xib:64: warning: The 'Value Changed' event of 'Plain Segmented Control (singlePlayer.png, twoPlayer.png)' is connected to the 'selectNumberOfPlayers:' selector of 'File's Owner', but 'selectNumberOfPlayers:' is no longer defined on 'PongViewController'.
+o/Users/joemiller/Developer/Pong4/PongViewController.xib:47: warning: The 'Touch Down' event of 'Light Info Button' is connected to the 'tapInfo' selector of 'File's Owner', but 'tapInfo' is no longer defined on 'PongViewController'.
+lSLF07#2@33"CompileXIB PongViewController.xib364148118#364148118#0(2721"2012-07-16 09:15:18.180 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-07-16 09:15:18.182 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-07-16 09:15:18.182 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-07-16 09:15:18.183 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-07-16 09:15:18.183 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-07-16 09:15:18.184 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-07-16 09:15:18.184 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  2012-07-16 09:15:18.184 ibtool[365:a0b] -[__NSCFSet unionSet:]: This app appears to be calling this method with a non-set parameter.  Please wait while the system corrects this....  Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)/* com.apple.ibtool.document.warnings *//Users/joemiller/Developer/Pong4/PongViewController.xib:37: warning: The 'Touch Down' event of 'Rounded Rect Button (Start)' is connected to the 'tapToStart' selector of 'File's Owner', but 'tapToStart' is no longer defined on 'PongViewController'./Users/joemiller/Developer/Pong4/PongViewController.xib:73: warning: The 'Value Changed' event of 'Horizontal Slider' is connected to the 'setDifficultyLevel:' selector of 'File's Owner', but 'setDifficultyLevel:' is no longer defined on 'PongViewController'./Users/joemiller/Developer/Pong4/PongViewController.xib:64: warning: The 'Value Changed' event of 'Plain Segmented Control (singlePlayer.png, twoPlayer.png)' is connected to the 'selectNumberOfPlayers:' selector of 'File's Owner', but 'selectNumberOfPlayers:' is no longer defined on 'PongViewController'./Users/joemiller/Developer/Pong4/PongViewController.xib:47: warning: The 'Touch Down' event of 'Light Info Button' is connected to the 'tapInfo' selector of 'File's Owner', but 'tapInfo' is no longer defined on 'PongViewController'.4(22@179"The 'Touch Down' event of 'Rounded Rect Button (Start)' is connected to the 'tapToStart' selector of 'File's Owner', but 'tapToStart' is no longer defined on 'PongViewController'.364148118#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong4/PongViewController.xib363926506#37#0#37#0#0"0(22@190"The 'Value Changed' event of 'Horizontal Slider' is connected to the 'setDifficultyLevel:' selector of 'File's Owner', but 'setDifficultyLevel:' is no longer defined on 'PongViewController'.364148118#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong4/PongViewController.xib363926506#73#0#73#0#0"0(22@236"The 'Value Changed' event of 'Plain Segmented Control (singlePlayer.png, twoPlayer.png)' is connected to the 'selectNumberOfPlayers:' selector of 'File's Owner', but 'selectNumberOfPlayers:' is no longer defined on 'PongViewController'.364148118#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong4/PongViewController.xib363926506#64#0#64#0#0"0(22@163"The 'Touch Down' event of 'Light Info Button' is connected to the 'tapInfo' selector of 'File's Owner', but 'tapInfo' is no longer defined on 'PongViewController'.364148118#18446744073709551615#0#0(6@55"/Users/joemiller/Developer/Pong4/PongViewController.xib363926506#47#0#47#0#0"0(0#0#55"/Users/joemiller/Developer/Pong4/PongViewController.xib17209346048#565"    cd /Users/joemiller/Developer/Pong4    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/PongViewController.nib /Users/joemiller/Developer/Pong4/PongViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/joemiller/Documents/Games/iOS/Pong/MainWindow.xib
+s362782995.626336
+e362782996.871561
+r1
+xCompileXIB
+x/Users/joemiller/Documents/Games/iOS/Pong/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib362782995#362782996#0(0"0(0#0#56"/Users/joemiller/Documents/Games/iOS/Pong/MainWindow.xib8607362496#576"    cd /Users/joemiller/Documents/Games/iOS/Pong    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/MainWindow.nib /Users/joemiller/Documents/Games/iOS/Pong/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/joemiller/Documents/Games/iOS/Pong/PongViewController.xib
+s362901407.596171
+e362901407.934285
+r1
+xCompileXIB
+x/Users/joemiller/Documents/Games/iOS/Pong/PongViewController.xib
+lSLF07#2@33"CompileXIB PongViewController.xib362901407#362901407#0(0"0(0#0#64"/Users/joemiller/Documents/Games/iOS/Pong/PongViewController.xib19984925217456244#592"    cd /Users/joemiller/Documents/Games/iOS/Pong    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/PongViewController.nib /Users/joemiller/Documents/Games/iOS/Pong/PongViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/ball.png ball.png
+r0
+
+CCpResource build/Debug-iphonesimulator/Pong.app/ball.png images/ball.png
+s363845368.850696
+e363845368.889593
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/ball.png
+ximages/ball.png
+lSLF07#2@20"Copy images/ball.png363845368#363845368#0(0"0(0#0#48"/Users/joemiller/Developer/Pong3/images/ball.png4542373520#452"    cd /Users/joemiller/Developer/Pong3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/joemiller/Developer/Pong3/images/ball.png /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/bar.png images/bar.png
+s363845368.852515
+e363845368.889418
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/bar.png
+ximages/bar.png
+lSLF07#2@19"Copy images/bar.png363845368#363845368#0(0"0(0#0#47"/Users/joemiller/Developer/Pong3/images/bar.png4542373520#451"    cd /Users/joemiller/Developer/Pong3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/joemiller/Developer/Pong3/images/bar.png /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/button.png images/button.png
+s363845368.851711
+e363845368.889803
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/button.png
+ximages/button.png
+lSLF07#2@22"Copy images/button.png363845368#363845368#0(0"0(0#0#50"/Users/joemiller/Developer/Pong3/images/button.png4542373520#454"    cd /Users/joemiller/Developer/Pong3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/joemiller/Developer/Pong3/images/button.png /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/easy.png images/easy.png
+s364148118.089604
+e364148118.112284
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/easy.png
+ximages/easy.png
+lSLF07#2@20"Copy images/easy.png364148118#364148118#0(0"0(0#0#48"/Users/joemiller/Developer/Pong4/images/easy.png4531670672#452"    cd /Users/joemiller/Developer/Pong4    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/joemiller/Developer/Pong4/images/easy.png /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/hard.png images/hard.png
+s364148118.090046
+e364148118.112405
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/hard.png
+ximages/hard.png
+lSLF07#2@20"Copy images/hard.png364148118#364148118#0(0"0(0#0#48"/Users/joemiller/Developer/Pong4/images/hard.png4531670672#452"    cd /Users/joemiller/Developer/Pong4    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/joemiller/Developer/Pong4/images/hard.png /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/icon.png icon.png
+s363845368.852108
+e363845368.889909
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/icon.png
+xicon.png
+lSLF07#2@13"Copy icon.png363845368#363845368#0(0"0(0#0#41"/Users/joemiller/Developer/Pong3/icon.png4542373520#445"    cd /Users/joemiller/Developer/Pong3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/joemiller/Developer/Pong3/icon.png /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/paddle.png images/paddle.png
+s363845368.851294
+e363845368.889699
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/paddle.png
+ximages/paddle.png
+lSLF07#2@22"Copy images/paddle.png363845368#363845368#0(0"0(0#0#50"/Users/joemiller/Developer/Pong3/images/paddle.png4542373520#454"    cd /Users/joemiller/Developer/Pong3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/joemiller/Developer/Pong3/images/paddle.png /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/paddle.png paddle.png
+r0
+
+CCpResource build/Debug-iphonesimulator/Pong.app/singlePlayer.png images/singlePlayer.png
+s363920025.439209
+e363920025.454353
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/singlePlayer.png
+ximages/singlePlayer.png
+lSLF07#2@28"Copy images/singlePlayer.png363920025#363920025#0(0"0(0#0#56"/Users/joemiller/Developer/Pong4/images/singlePlayer.png4530110096#460"    cd /Users/joemiller/Developer/Pong4    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/joemiller/Developer/Pong4/images/singlePlayer.png /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app0#
+
+CCpResource build/Debug-iphonesimulator/Pong.app/twoPlayer.png images/twoPlayer.png
+s363920025.439651
+e363920025.454627
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Pong.app/twoPlayer.png
+ximages/twoPlayer.png
+lSLF07#2@25"Copy images/twoPlayer.png363920025#363920025#0(0"0(0#0#53"/Users/joemiller/Developer/Pong4/images/twoPlayer.png4530110096#457"    cd /Users/joemiller/Developer/Pong4    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/joemiller/Developer/Pong4/images/twoPlayer.png /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app0#
+
+CGenerateDSYMFile /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app.dSYM /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Pong
+s363845373.629060
+e363845373.665926
+r1
+xGenerateDSYMFile
+x/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app.dSYM
+x/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Pong
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Pong.app.dSYM build/Debug-iphonesimulator/Pong.app/Pong363845373#363845373#0(0"0(0#0#74"/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Pong4542373520#356"    cd /Users/joemiller/Developer/Pong3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Pong -o /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app.dSYM0#
+
+CGenerateDSYMFile /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app.dSYM /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Pong
+s364148119.584105
+e364148119.607396
+r1
+xGenerateDSYMFile
+x/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app.dSYM
+x/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Pong
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Pong.app.dSYM build/Debug-iphonesimulator/Pong.app/Pong364148119#364148119#0(0"0(0#0#74"/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Pong4531670672#356"    cd /Users/joemiller/Developer/Pong4    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Pong -o /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app.dSYM0#
+
+CGenerateDSYMFile /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app.dSYM /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Pong
+s362901370.780467
+e362901370.792815
+r1
+xGenerateDSYMFile
+x/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app.dSYM
+x/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Pong
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Pong.app.dSYM build/Debug-iphonesimulator/Pong.app/Pong362901370#362901370#0(0"0(0#0#83"/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Pong8618459904#383"    cd /Users/joemiller/Documents/Games/iOS/Pong    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Pong -o /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app.dSYM0#
+
+CLd /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Pong normal i386
+s363845373.195501
+e363845373.628990
+r1
+xLd
+x/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Pong
+xnormal
+xi386
+lSLF07#2@79"Link /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Pong363845373#363845373#0(0"0(0#0#0"4542373520#864"    cd /Users/joemiller/Developer/Pong3    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator -F/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator -filelist /Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -prebind -o /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Pong0#
+
+CLd /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Pong normal i386
+s364148119.131615
+e364148119.583932
+r1
+xLd
+x/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Pong
+xnormal
+xi386
+lSLF07#2@79"Link /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Pong364148119#364148119#0(0"0(0#0#0"4531670672#864"    cd /Users/joemiller/Developer/Pong4    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator -F/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator -filelist /Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -prebind -o /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Pong0#
+
+CLd /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Pong normal i386
+s362901370.762967
+e362901370.780395
+r1
+xLd
+x/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Pong
+xnormal
+xi386
+lSLF07#2@88"Link /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Pong362901370#362901370#0(0"0(0#0#0"8620408608#900"    cd /Users/joemiller/Documents/Games/iOS/Pong    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator -F/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator -filelist /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Pong0#
+
+CProcessInfoPlistFile /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Info.plist Pong-Info.plist
+s363845368.726679
+e363845368.821002
+r1
+xProcessInfoPlistFile
+x/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Info.plist
+xPong-Info.plist
+lSLF07#2@23"Process Pong-Info.plist363845368#363845368#0(0"0(0#0#48"/Users/joemiller/Developer/Pong3/Pong-Info.plist17203862016#452"    cd /Users/joemiller/Developer/Pong3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Pong-Info.plist -genpkginfo /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app/Info.plist Pong-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist Pong-Info.plist
+s362782995.623141
+e362782995.626270
+r1
+xProcessInfoPlistFile
+x/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist
+xPong-Info.plist
+lSLF07#2@23"Process Pong-Info.plist362782995#362782995#0(0"0(0#0#57"/Users/joemiller/Documents/Games/iOS/Pong/Pong-Info.plist30681223440564324#479"    cd /Users/joemiller/Documents/Games/iOS/Pong    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Pong-Info.plist -genpkginfo /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist0#
+
+CProcessPCH /var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dhdskkbznrgwqcfemfsxwzvlakop/Pong_Prefix.pch.gch Pong_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s362782996.871659
+e362782997.900884
+r1
+xProcessPCH
+x/var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dhdskkbznrgwqcfemfsxwzvlakop/Pong_Prefix.pch.gch
+xPong_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Pong_Prefix.pch362782996#362782997#0(0"0(0#0#57"/Users/joemiller/Documents/Games/iOS/Pong/Pong_Prefix.pch8617064544#1779"    cd /Users/joemiller/Documents/Games/iOS/Pong    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator -I/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/include -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Documents/Games/iOS/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -c /Users/joemiller/Documents/Games/iOS/Pong/Pong_Prefix.pch -o /var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-dhdskkbznrgwqcfemfsxwzvlakop/Pong_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-ehxzhedfmokzdhdgkofmqbifwmnm/Pong_Prefix.pch.gch Pong_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s363920026.236872
+e363920026.841234
+r1
+xProcessPCH
+x/var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-ehxzhedfmokzdhdgkofmqbifwmnm/Pong_Prefix.pch.gch
+xPong_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Pong_Prefix.pch363920026#363920026#0(0"0(0#0#48"/Users/joemiller/Developer/Pong4/Pong_Prefix.pch17184299008#1685"    cd /Users/joemiller/Developer/Pong4    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator -I/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/include -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Developer/Pong4/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -c /Users/joemiller/Developer/Pong4/Pong_Prefix.pch -o /var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-ehxzhedfmokzdhdgkofmqbifwmnm/Pong_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-hcvtwwdggdydufewucrvciqhdibf/Pong_Prefix.pch.gch Pong_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s363845372.335689
+e363845372.992270
+r1
+xProcessPCH
+x/var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-hcvtwwdggdydufewucrvciqhdibf/Pong_Prefix.pch.gch
+xPong_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Pong_Prefix.pch363845372#363845372#0(0"0(0#0#48"/Users/joemiller/Developer/Pong3/Pong_Prefix.pch4542373520#1685"    cd /Users/joemiller/Developer/Pong3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator -I/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/include -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Developer/Pong3/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -c /Users/joemiller/Developer/Pong3/Pong_Prefix.pch -o /var/folders/n5/hfzm9s2s7fbd09n28sb_zc7c0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-hcvtwwdggdydufewucrvciqhdibf/Pong_Prefix.pch.gch0#
+
+CTouch /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app
+s363845373.665989
+e363845373.681874
+r1
+xTouch
+x/Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app
+lSLF07#2@75"Touch /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app363845373#363845373#0(0"0(0#0#0"4542373520#263"    cd /Users/joemiller/Developer/Pong3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/joemiller/Developer/Pong3/build/Debug-iphonesimulator/Pong.app0#
+
+CTouch /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app
+s364148119.607454
+e364148119.609236
+r1
+xTouch
+x/Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app
+lSLF07#2@75"Touch /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app364148119#364148119#0(0"0(0#0#0"4531670672#263"    cd /Users/joemiller/Developer/Pong4    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/joemiller/Developer/Pong4/build/Debug-iphonesimulator/Pong.app0#
+
+CTouch /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app
+s362901407.934822
+e362901407.936665
+r1
+xTouch
+x/Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app
+lSLF07#2@84"Touch /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app362901407#362901407#0(0"0(0#0#0"8603819264#281"    cd /Users/joemiller/Documents/Games/iOS/Pong    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/joemiller/Documents/Games/iOS/Pong/build/Debug-iphonesimulator/Pong.app0#
+

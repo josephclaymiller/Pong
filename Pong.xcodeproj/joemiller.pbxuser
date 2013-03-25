@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* PongAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {761, 565}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 459}";
+		};
+	};
+	1D3623250D0F684500981E51 /* PongAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1157}}";
+			sepNavSelRange = "{608, 0}";
+			sepNavVisRange = "{0, 1897}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Pong */ = {
+		activeExec = 0;
+		executables = (
+			BBF83EE5159F8C63000022B3 /* Pong */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* PongViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1221, 697}}";
+			sepNavSelRange = "{438, 0}";
+			sepNavVisRange = "{0, 449}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* PongViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2222, 5928}}";
+			sepNavSelRange = "{2299, 5}";
+			sepNavVisRange = "{140, 2929}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BBF83EE5159F8C63000022B3 /* Pong */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Pong */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Pong */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = BBF83EF8159F8C82000022B3 /* Code sense */;
+		executables = (
+			BBF83EE5159F8C63000022B3 /* Pong */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					2059,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 364147992;
+			PBXWorkspaceStateSaveDate = 364147992;
+		};
+		perUserProjectItems = {
+			BB4EF0B915B475B600CA3241 /* PBXTextBookmark */ = BB4EF0B915B475B600CA3241 /* PBXTextBookmark */;
+			BB4EF0BA15B475B600CA3241 /* PBXTextBookmark */ = BB4EF0BA15B475B600CA3241 /* PBXTextBookmark */;
+			BB81AD9E15A15DB400578EAA /* PBXTextBookmark */ = BB81AD9E15A15DB400578EAA /* PBXTextBookmark */;
+			BB81AEC715A16EFF00578EAA /* PBXTextBookmark */ = BB81AEC715A16EFF00578EAA /* PBXTextBookmark */;
+			BB81AEC815A16EFF00578EAA /* PBXTextBookmark */ = BB81AEC815A16EFF00578EAA /* PBXTextBookmark */;
+			BB81AEC915A16EFF00578EAA /* PBXTextBookmark */ = BB81AEC915A16EFF00578EAA /* PBXTextBookmark */;
+			BB81AECA15A16EFF00578EAA /* PBXTextBookmark */ = BB81AECA15A16EFF00578EAA /* PBXTextBookmark */;
+			BBF83F5B159FA2F4000022B3 /* PBXBookmark */ = BBF83F5B159FA2F4000022B3 /* PBXBookmark */;
+			BBF83F5C159FA2F4000022B3 /* PBXBookmark */ = BBF83F5C159FA2F4000022B3 /* PBXBookmark */;
+		};
+		sourceControlManager = BBF83EF7159F8C82000022B3 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	BB4EF0B915B475B600CA3241 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PongViewController.m */;
+		name = "PongViewController.m: 22";
+		rLen = 0;
+		rLoc = 420;
+		rType = 0;
+		vrLen = 1861;
+		vrLoc = 327;
+	};
+	BB4EF0BA15B475B600CA3241 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* PongViewController.m */;
+		name = "PongViewController.m: 68";
+		rLen = 5;
+		rLoc = 2299;
+		rType = 0;
+		vrLen = 2929;
+		vrLoc = 140;
+	};
+	BB81AD9E15A15DB400578EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* PongAppDelegate.h */;
+		name = "PongAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 459;
+		vrLoc = 0;
+	};
+	BB81AEC715A16EFF00578EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* PongAppDelegate.m */;
+		name = "PongAppDelegate.m: 26";
+		rLen = 0;
+		rLoc = 608;
+		rType = 0;
+		vrLen = 1897;
+		vrLoc = 0;
+	};
+	BB81AEC815A16EFF00578EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* PongViewController.h */;
+		name = "PongViewController.h: 17";
+		rLen = 0;
+		rLoc = 438;
+		rType = 0;
+		vrLen = 449;
+		vrLoc = 0;
+	};
+	BB81AEC915A16EFF00578EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "PongView.m: 26";
+		rLen = 0;
+		rLoc = 612;
+		rType = 0;
+		vrLen = 621;
+		vrLoc = 0;
+	};
+	BB81AECA15A16EFF00578EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		name = "PongView.h: 12";
+		rLen = 0;
+		rLoc = 180;
+		rType = 0;
+		vrLen = 196;
+		vrLoc = 0;
+	};
+	BBF83EE5159F8C63000022B3 /* Pong */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Pong;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	BBF83EF7159F8C82000022B3 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	BBF83EF8159F8C82000022B3 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BBF83F5B159FA2F4000022B3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BBF83F3D159F9FDE000022B3 /* paddle.png */;
+	};
+	BBF83F5C159FA2F4000022B3 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = BBF83F3C159F9FDE000022B3 /* ball.png */;
+	};
+}

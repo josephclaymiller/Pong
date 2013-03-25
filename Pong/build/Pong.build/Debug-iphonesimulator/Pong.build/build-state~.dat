@@ -1,0 +1,209 @@
+TPong
+v7
+r0
+t362778826.844396
+cCheck dependencies
+cProcessInfoPlistFile /Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist Pong-Info.plist
+cCompileXIB /Users/joemiller/Documents/Games/iOS/Pong/Pong/MainWindow.xib
+cCompileXIB /Users/joemiller/Documents/Games/iOS/Pong/Pong/PongViewController.xib
+cProcessPCH /var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-asucglxbobmvmcclgskdkmfdvdtn/Pong_Prefix.pch.gch Pong_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/Classes/PongAppDelegate.h
+c00000000000000000000000000000000
+t2
+s0
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/Classes/PongAppDelegate.m
+c00000000000000000000000000000000
+t2
+s0
+i"PongAppDelegate.h"
+i"PongViewController.h"
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/Classes/PongViewController.h
+c00000000000000000000000000000000
+t2
+s0
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/Classes/PongViewController.m
+c00000000000000000000000000000000
+t2
+s0
+i"PongViewController.h"
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/MainWindow.xib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/PongViewController.xib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/Pong_Prefix.pch
+c00000000000000000000000000000000
+t2
+s0
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app.dSYM
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/MainWindow.nib
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/PkgInfo
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/Pong
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/PongViewController.nib
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/Pong.LinkFileList
+c000000004FEF594A000000000000018D
+t1341086026
+s397
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/joemiller/Documents/Games/iOS/Pong/Pong/main.m
+c00000000000000000000000000000000
+t2
+s0
+i<UIKit/UIKit.h>
+
+N/var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-asucglxbobmvmcclgskdkmfdvdtn/Pong_Prefix.pch.gch
+t2
+s0
+
+NPong-Info.plist
+c00000000000000000000000000000000
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies362778826#362778826#0(0"0(0#1#0"8607350752#0"0#
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongAppDelegate.o /Users/joemiller/Documents/Games/iOS/Pong/Pong/Classes/PongAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/PongViewController.o /Users/joemiller/Documents/Games/iOS/Pong/Pong/Classes/PongViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Pong.build/Debug-iphonesimulator/Pong.build/Objects-normal/i386/main.o /Users/joemiller/Documents/Games/iOS/Pong/Pong/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/joemiller/Documents/Games/iOS/Pong/Pong/MainWindow.xib
+s362778826.687364
+e362778826.805138
+r0
+xCompileXIB
+x/Users/joemiller/Documents/Games/iOS/Pong/Pong/MainWindow.xib
+o/* com.apple.ibtool.errors */
+o/Users/joemiller/Documents/Games/iOS/Pong/Pong/MainWindow.xib: error: File does not exist at path 'file://localhost/Users/joemiller/Documents/Games/iOS/Pong/Pong/MainWindow.xib'
+lSLF07#2@25"CompileXIB MainWindow.xib362778826#362778826#0(208"/* com.apple.ibtool.errors *//Users/joemiller/Documents/Games/iOS/Pong/Pong/MainWindow.xib: error: File does not exist at path 'file://localhost/Users/joemiller/Documents/Games/iOS/Pong/Pong/MainWindow.xib'1(4@107"File does not exist at path 'file://localhost/Users/joemiller/Documents/Games/iOS/Pong/Pong/MainWindow.xib'362778826#18446744073709551615#0#0(6@61"/Users/joemiller/Documents/Games/iOS/Pong/Pong/MainWindow.xib362778826#0#0#0#0#0"0(0#0#61"/Users/joemiller/Documents/Games/iOS/Pong/Pong/MainWindow.xib8601226464#591"    cd /Users/joemiller/Documents/Games/iOS/Pong/Pong    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/MainWindow.nib /Users/joemiller/Documents/Games/iOS/Pong/Pong/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk1#
+
+CCompileXIB /Users/joemiller/Documents/Games/iOS/Pong/Pong/PongViewController.xib
+s362778826.687871
+e362778826.805269
+r0
+xCompileXIB
+x/Users/joemiller/Documents/Games/iOS/Pong/Pong/PongViewController.xib
+o/* com.apple.ibtool.errors */
+o/Users/joemiller/Documents/Games/iOS/Pong/Pong/PongViewController.xib: error: File does not exist at path 'file://localhost/Users/joemiller/Documents/Games/iOS/Pong/Pong/PongViewController.xib'
+lSLF07#2@33"CompileXIB PongViewController.xib362778826#362778826#0(224"/* com.apple.ibtool.errors *//Users/joemiller/Documents/Games/iOS/Pong/Pong/PongViewController.xib: error: File does not exist at path 'file://localhost/Users/joemiller/Documents/Games/iOS/Pong/Pong/PongViewController.xib'1(4@115"File does not exist at path 'file://localhost/Users/joemiller/Documents/Games/iOS/Pong/Pong/PongViewController.xib'362778826#18446744073709551615#0#0(6@69"/Users/joemiller/Documents/Games/iOS/Pong/Pong/PongViewController.xib362778826#0#0#0#0#0"0(0#0#69"/Users/joemiller/Documents/Games/iOS/Pong/Pong/PongViewController.xib8599235264#607"    cd /Users/joemiller/Documents/Games/iOS/Pong/Pong    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/PongViewController.nib /Users/joemiller/Documents/Games/iOS/Pong/Pong/PongViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk1#
+
+CGenerateDSYMFile /Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app.dSYM /Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/Pong
+r0
+
+CLd /Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/Pong normal i386
+r0
+
+CProcessInfoPlistFile /Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist Pong-Info.plist
+s362778826.683548
+e362778826.687307
+r0
+xProcessInfoPlistFile
+x/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist
+xPong-Info.plist
+lSLF07#2@23"Process Pong-Info.plist362778826#362778826#0(181"error: could not read data from '/Users/joemiller/Documents/Games/iOS/Pong/Pong/Pong-Info.plist': The file “Pong-Info.plist” couldn’t be opened because there is no such file.1(4@173"could not read data from '/Users/joemiller/Documents/Games/iOS/Pong/Pong/Pong-Info.plist': The file “Pong-Info.plist” couldn’t be opened because there is no such file.362778826#18446744073709551615#0#0(6@0"362778826#0#0#0#0#0"0(0#0#62"/Users/joemiller/Documents/Games/iOS/Pong/Pong/Pong-Info.plist8605786080#494"    cd /Users/joemiller/Documents/Games/iOS/Pong/Pong    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Pong-Info.plist -genpkginfo /Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app/Info.plist1#
+
+CProcessPCH /var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-asucglxbobmvmcclgskdkmfdvdtn/Pong_Prefix.pch.gch Pong_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s362778826.805348
+e362778826.844349
+r0
+xProcessPCH
+x/var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-asucglxbobmvmcclgskdkmfdvdtn/Pong_Prefix.pch.gch
+xPong_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+oi686-apple-darwin10-gcc-4.2.1: /Users/joemiller/Documents/Games/iOS/Pong/Pong/Pong_Prefix.pch: No such file or directory
+oi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effect
+oi686-apple-darwin10-gcc-4.2.1: no input files
+lSLF07#2@26"Precompile Pong_Prefix.pch362778826#362778826#0(371"i686-apple-darwin10-gcc-4.2.1: /Users/joemiller/Documents/Games/iOS/Pong/Pong/Pong_Prefix.pch: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 11(4@103"Command /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 failed with exit code 1362778826#18446744073709551615#0#0(1@0"0(0#0#62"/Users/joemiller/Documents/Games/iOS/Pong/Pong/Pong_Prefix.pch7164512794391307264#1829"    cd /Users/joemiller/Documents/Games/iOS/Pong/Pong    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-generated-files.hmap -I/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-own-target-headers.hmap -I/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-all-target-headers.hmap -iquote /Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/Pong-project-headers.hmap -F/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator -I/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/include -I/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources/i386 -I/Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Pong.build/Debug-iphonesimulator/Pong.build/DerivedSources -c /Users/joemiller/Documents/Games/iOS/Pong/Pong/Pong_Prefix.pch -o /var/folders/eK/eK1joHYKHiKo0OWFZOjgCk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong_Prefix-asucglxbobmvmcclgskdkmfdvdtn/Pong_Prefix.pch.gch1#
+
+CTouch /Users/joemiller/Documents/Games/iOS/Pong/Pong/build/Debug-iphonesimulator/Pong.app
+r0
+
